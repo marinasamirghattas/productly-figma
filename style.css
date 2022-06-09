@@ -1,0 +1,451 @@
+/* Global */
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --darkOrange: #FF9900;
+    --navy: #173A56;
+    --lightNavy: #567592;
+    --brown: #544837;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-weight: 700;
+    margin: 0;
+    color: #2F281E;
+}
+
+p {
+    color: var(--brown);
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--black);
+}
+
+.btn {
+    color: var(--white);
+    background-color: var(--darkOrange);
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* ***************************Header *********************************** */
+#header {
+    height: 100px;
+    padding: 25px 0;
+}
+
+#header .wrapper {
+    justify-content: space-between;
+}
+
+
+.menu .link {
+    text-transform: capitalize;
+    margin: 0 20px;
+}
+
+.sign-up-btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    padding-top: 7px;
+    padding-left: 25px;
+    margin-right: 7px;
+    color: #2F281E;
+    font-weight: 600;
+
+}
+
+#header .btn {
+    width: 80px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 30px;
+    color: #2F281E;
+    font-weight: 600;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%
+}
+
+#banner .content {
+    width: 45%;
+    text-align: left;
+    margin: 0;
+}
+
+#banner .content h1 {
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 24px;
+}
+
+.content .btn {
+    padding: 10px 30px;
+}
+
+#banner .content p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 35px;
+}
+
+.fa-play {
+    color: var(--darkOrange);
+    margin-left: 20px;
+    width: 10px;
+    height: 20px;
+}
+
+.watch-vedio {
+    color: var(--darkOrange);
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+/*********************************tools****************************/
+
+#design-tools .flex {
+    align-items: stretch;
+    margin-top: 20px;
+
+}
+
+.tools {
+    width: 25%;
+    padding: 3px 53px 78px;
+}
+
+.tools+.tools {
+    margin-left: 31px;
+}
+
+#design-tools {
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+#design-tools h2 {
+    width: 350px;
+    text-align: center;
+    margin-left: 572px;
+}
+
+
+
+#design-tools p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#design-tools .row {
+    background: url(./img/Bg.png) center/cover no-repeat;
+    height: 500px;
+}
+
+.front {
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    margin-top: 40px;
+    /* margin-bottom: 30px; */
+}
+
+.back {
+    width: 50px;
+    height: 51px;
+    border-radius: 19px 19px 0 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.front1,
+.back1 {
+    background-color: #8251af;
+
+}
+
+.front2,
+.back2 {
+    background-color: #fab005;
+}
+
+.front3,
+.back3 {
+    background-color: #f03e3d;
+}
+
+.front4,
+.back4 {
+    background-color: #4dadf7;
+}
+
+.Sign-up-now {
+    margin-left: 43%;
+    margin-top: -40px;
+
+}
+
+#design-tools .btn {
+    padding: 12px 30px 12px 30px;
+}
+
+/*****************************************************************************/
+
+
+#jobs .jobs {
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 120PX;
+}
+
+.jobs-details {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+img+.jobs-details {
+    margin-left: 150px;
+}
+
+.jobs-details:first-child {
+    margin-right: 150px;
+}
+
+
+.jobs img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.jobs .details {
+    width: calc(100% - 115px);
+}
+
+.details h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.fa-square-check {
+    color: var(--darkOrange);
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.steps {
+    display: inline-flex;
+}
+
+/***************************** super hero start*****************************************/
+/* .super-hero-details .flex {
+    background-image: url(./img/Bg2.png) center/ cover no-repeat;
+
+} */
+
+
+.images {
+    background-image: url(./img/Bg2.png);
+}
+
+.super-hero-details {
+    position: relative;
+    margin-top: 204px;
+
+}
+
+.bg {
+    z-index: -3;
+    width: 1519px;
+    height: 548px;
+
+
+}
+
+
+.super-hero-details img {
+    position: absolute;
+}
+
+.img1 {
+    Top: 117px;
+    Left: 148px;
+}
+
+.img2 {
+    left: 159px;
+    top: 493px;
+}
+
+.img3 {
+    left: 534px;
+    top: 611px;
+}
+
+.img4 {
+    left: 910px;
+    top: 64px;
+
+}
+
+.img5 {
+    left: 1060px;
+    top: 484px;
+}
+
+.center {
+    position: absolute;
+    left: 483px;
+    top: 195px;
+    width: 519px;
+    text-align: center;
+
+}
+
+.center .btn {
+    padding: 12px 30px 12px 30px;
+}
+
+.center p {
+    padding-bottom: 46px;
+    padding-top: 21px;
+    color: #567592;
+}
+
+/************************************ slider ********************************/
+
+
+.reviews {
+    margin-top: 1000px;
+    margin-left: 170px;
+}
+
+.head-para {
+    margin-bottom: 59px;
+    margin-left: -62px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+
+    border-radius: 12px;
+}
+
+.owl-carousel .owl-item .slider-content-container {
+    width: 93%;
+}
+
+
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+    margin-left: -79px;
+}
+
+.owl-carousel .owl-stage {
+
+    margin-left: 17px;
+}
+
+.section6 h2 {
+    margin-left: -62px;
+}
+
+.slider-content-container h3:hover {
+    color: var(--darkOrange);
+}
+
+/*************************** slider end ********************************/
+
+/*************************** footer start *******************************/
+.footer {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 93px;
+    width: 90%;
+}
+
+#footer-area .flex {
+    margin-top: 54px;
+}
+
+#footer-area img {
+    margin-bottom: 309px;
+    margin-top: 20px;
+}
+
+#footer-area .btn {
+    padding: 6px 12px;
+    Width: 131px;
+    Height: 39px;
+    font-size: 14px;
+}
+
+#footer-area input {
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 264px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+
+/*************************** footer end *******************************/
